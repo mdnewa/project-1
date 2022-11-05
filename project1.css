@@ -1,0 +1,183 @@
+/* common css codes start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+
+/* common css codes end here */
+/* nav css codes start here */
+nav{
+    background-color: #02918c;
+}
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu{
+    width: 85%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ul li a{
+    color: #fff;
+    font-size:12px;
+    font-weight:800;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    display: block;
+}
+.container .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/* nav css codes end here */
+/* banner codes start here */
+#banner{
+    background:url(images/MYFOLIO9.jpg);
+    height:726px ;
+    background-size:cover ;
+    background-position:center ; 
+    position: relative;
+    z-index: 1;
+}
+#banner .container{
+    height:726px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#banner .container .content img{
+    display:block;
+    margin: auto;
+}
+#banner .container .content h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 26px;
+    word-spacing: 50px;
+}
+#banner .container .content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content img{
+    margin-top: 50px;
+    margin-bottom: 57px;
+}
+#banner .container .content a{
+    font-size: 14px;
+    font-weight: 800;
+    color:#0b1016;
+    text-transform:uppercase;
+    padding-right:40px;
+    padding-left:43px;
+    padding-top:14px;
+    padding-bottom:19px;
+    background-color: #cfc91d;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+    z-index: -1;
+}
+
+/* banner codes end here */
+/* about codes start here */
+#about{
+    height: 738px;
+}
+#about .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#about .container .reading h1{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+    margin-bottom: 39px;
+}
+.reading{
+    margin-top: 96px;
+}
+#about .container .reading #img1{
+    margin-bottom: 43px;
+}
+#about .container .reading #prg1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 81px;
+    color: #7e8287;
+}
+#about .container .reading #prg1 b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .container2{
+    width: 1170px;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #7e8287;
+}
+.container2 h5{
+    font-size: 16px;
+    font-weight: 800; 
+}
+.container2 p{
+    font-size: 11px;
+    font-weight: 400;
+}
+.container2 div{
+    padding-right:67px;
+    padding-left:60px;
+    padding-top:34px ;
+    padding-bottom:55px;
+    border-right:1px solid #7e8287 ;
+}
+.container2 .reading5{
+    border: none;
+}
+/* about codes end here */
+/* services codes start here */
+/* services codes end here */
